@@ -1,0 +1,72 @@
+/**
+ * This is the master versions gradle file where all versions reside
+ */
+
+def build_versions = [:]
+build_versions.min_sdk = 25
+build_versions.target_sdk = 29
+build_versions.compile_sdk = 30
+build_versions.build_tools = '30.0.0'
+ext.build_versions = build_versions
+
+def lib_versions = [:]
+lib_versions.gradle = '4.0.1'
+lib_versions.java = JavaVersion.VERSION_1_8
+lib_versions.kotlin = '1.4.10'
+lib_versions.checkstyle = '7.4'
+lib_versions.ktlint = '0.36.0'
+lib_versions.dagger2 = '2.27'
+lib_versions.butterknife = '10.2.1'
+lib_versions.apache_commons = '2.4'
+lib_versions.retrofit = '2.8.1'
+lib_versions.jaxb = '2.3.1'
+lib_versions.okhttp3 = '4.6.0'
+lib_versions.rxjava2 = '2.2.0'
+lib_versions.rxandroid = '2.1.0'
+lib_versions.apache_commons_lang3 = '3.10'
+lib_versions.appsync = '3.0.1'
+lib_versions.aws_sdk = '2.16.12'
+lib_versions.joda_time = '2.9.9'
+lib_versions.cardinal = '2.2.3-2'
+lib_versions.cardinal_jwt = '8.16'
+lib_versions.assertj = '3.16.1'
+lib_versions.androidx_room = '2.2.5'
+lib_versions.androidx_annotation = '1.1.0'
+lib_versions.androidx_lifecycle = '2.2.0'
+lib_versions.androidx_navigation = '2.3.0'
+lib_versions.androidx_paging = '2.1.2'
+lib_versions.androidx_appcompat = '1.2.0-beta01'
+lib_versions.androidx_legacy = '1.0.0'
+lib_versions.androidx_recyclerview = '1.1.0'
+lib_versions.androidx_cardview = '1.0.0'
+lib_versions.androidx_constraintlayout = '1.1.3'
+lib_versions.androidx_multidex = '2.0.1'
+lib_versions.android_material = '1.2.1'
+lib_versions.google_zxing = '3.4.0'
+lib_versions.com_journeyapps = '3.6.0'
+lib_versions.jakewharton_rxbinding = '3.1.0'
+lib_versions.jakewharton_timber = '4.7.1'
+lib_versions.io_card = '5.5.1'
+lib_versions.microsoft_appcenter = '2.3.0'
+lib_versions.code_gson = '2.8.6'
+lib_versions.se_emilsjolander = '2.7.0'
+lib_versions.squareup_picasso = '2.71828'
+lib_versions.com_squareup = '1.7.10'
+lib_versions.amitshekhar_android = '1.0.4'
+lib_versions.android_gms = '17.0.0'
+lib_versions.facebook_sdk = '7.0.0'
+
+//Test Dependencies
+lib_versions.junit = '4.13'
+lib_versions.powermock = '2.0.2'
+lib_versions.mockito = '2.8.9'
+lib_versions.mockito_android = '2.7.22'
+lib_versions.json = '20190722'
+lib_versions.mockk = '1.10.0'
+lib_versions.byte_buddy_agent = '1.10.1'
+lib_versions.arch_core = '2.1.0'
+lib_versions.test_espresso = '3.2.0'
+lib_versions.androidx_test = '1.2.0'
+lib_versions.test_ext = '1.1.1'
+
+ext.lib_versions = lib_versions

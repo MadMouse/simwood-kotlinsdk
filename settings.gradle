@@ -1,0 +1,3 @@
+include ':sipcentricapi'
+include ':app'
+rootProject.name = "SipCentricPbx"
